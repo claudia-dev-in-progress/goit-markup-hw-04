@@ -155,7 +155,7 @@ ul {
   width: 100%;
   margin-bottom: 94px;
   text-align: center;
-  background-image: url(/images/team.jpg);
+  background-image: url(./../images/team.jpg);
   background-color: rgba(47, 48, 58, 0.4);
   background-blend-mode: multiply;
 }
@@ -423,7 +423,7 @@ ul {
 .left-side-footer {
   display: inline-block;
   margin-top: 60px;
-  margin-right: 94px;
+  margin-right: 50px;
 }
 .right-side-footer {
   display: inline-block;
