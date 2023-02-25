@@ -130,7 +130,7 @@ ul {
 .navigation-link:hover,
 .navigation-link:active {
   border-bottom: 4px solid #2196f3;
-  padding-bottom: 28px;
+  padding-bottom: 29px;
 }
 
 .webstudio-header::after {
@@ -328,6 +328,7 @@ ul {
   width: 44px;
   height: 44px;
   justify-content: center;
+  cursor: pointer;
 }
 
 .icon-title {
