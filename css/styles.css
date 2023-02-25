@@ -115,6 +115,7 @@ ul {
   letter-spacing: 0.03em;
   margin-left: 23px;
 }
+.navigation-link:active,
 .navigation-link:hover,
 .header-contact-link:hover,
 .header-contact-link:focus,
@@ -125,6 +126,13 @@ ul {
 #address:focus {
   color: #2196f3;
 }
+
+.navigation-link:hover,
+.navigation-link:active {
+  border-bottom: 4px solid #2196f3;
+  padding-bottom: 28px;
+}
+
 .webstudio-header::after {
   content: "Studio";
   color: #212121;
@@ -307,13 +315,19 @@ ul {
 }
 .icons-list {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   justify-content: center;
   padding: 0px;
   margin-bottom: 30px;
 }
 .icon-list-item {
   fill: #afb1b8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
 }
 
 .icon-title {
@@ -386,20 +400,21 @@ ul {
 
 .header-icons:hover {
   fill: #2196f3;
+  cursor: pointer;
 }
 
 .icon-list-footer:hover {
   background-color: #2196f3;
+  cursor: pointer;
 }
 .customer:hover {
   border: 1px solid #2196f3;
   fill: #2196f3;
+  cursor: pointer;
 }
 .icon-list-item:hover {
   background-color: #2196f3;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
